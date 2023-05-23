@@ -1,5 +1,16 @@
 {
-  "dependencies": {
-    "discord.js": "^14.11.0"
-  }
+    "dependencies": {
+        "discord.js": "^14.11.0"
+    },
+    "name": "bot",
+    "description": "the best bot",
+    "version": "1.0.0",
+    "main": "bot.js",
+    "devDependencies": {},
+    "scripts": {
+        "build": "node deploy-commands.js",
+        "start": "node bot.js"
+    },
+    "author": "",
+    "license": "ISC"
 }
